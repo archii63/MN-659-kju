@@ -93,3 +93,6 @@ sudo systemctl daemon-reload
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 ------------------------------------------------------------
 Press CTRL+C to stop the logs
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
