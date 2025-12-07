@@ -1,0 +1,19 @@
+"""
+TextTwister
+A simple Python script that reverses the input text
+and counts the number of letters in each word.
+"""
+
+def reverse_text(text):
+    """Reverses the input text."""
+    return text[::-1]
+
+def word_lengths(text):
+    """Returns a list of word lengths in the input text."""
+    return [len(word) for word in text.split()]
+
+def main():
+    print("Welcome to TextTwister!")
+    user_input = input("Enter a text to twist: ")
+    
+    reversed_text = reverse_text(user_input)_
