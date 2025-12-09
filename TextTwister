@@ -17,3 +17,13 @@ def main():
     user_input = input("Enter a text to twist: ")
     
     reversed_text = reverse_text(user_input)_
+# 1. create local repo
+git init
+git add .
+git commit -m "Initial commit: simple-todo-cli"
+
+# 2. create a repository on GitHub (manual via website) OR use GitHub CLI:
+gh repo create your-username/simple-todo-cli --public --source=. --remote=origin
+
+# 3. push
+git push -u origin main
