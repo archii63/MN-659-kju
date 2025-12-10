@@ -1,0 +1,33 @@
+# hello-contributors
+
+A tiny, friendly command-line tool that greets contributors and shows project info.
+This repository is meant as a simple, beginner-friendly example project you can publish to GitHub.
+
+## Features
+- Simple CLI that prints a greeting
+- Reads a `CONTRIBUTORS.md` file and lists contributors
+- Small, well-documented structure ready for contribution
+
+## Requirements
+- Python 3.8+
+
+## Install / Run
+Clone the repository and run:
+
+```bash
+python -m pip install --upgrade pip
+# optional: create a venv
+python -m venv venv
+source venv/bin/activate   # macOS / Linux
+venv\Scripts\activate      # Windows
+
+python -m pip install -r requirements.txt  # (empty for now)
+python -m hello_contributors.cli --name "Your Name"
+python -m hello_contributors.cli --name "Your Name"
+python -m hello_contributors.cli --name "Sara"
+# Output:
+# Hello, Sara! 👋
+# Project: hello-contributors
+# Contributors:
+#  - Alice
+#  - Bob
