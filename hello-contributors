@@ -33,6 +33,8 @@ python -m hello_contributors.cli --name "Sara"
 #  - Alice
 #  - Bob
 
+## Install / Run
+Clone the repository and run:
 def load_tasks():
     if not os.path.exists(TASKS_FILE):
         return []
